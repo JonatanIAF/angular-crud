@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/crudtics",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "crudtics/index.html"
+      }
+    ]
+  }
+}
